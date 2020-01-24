@@ -1,0 +1,6 @@
+{
+  "exec": "node -r ts-node/register src",
+  "ext": "ts",
+  "ignore": ["src/**/*.spec.ts"],
+  "legacyWatch": true
+}

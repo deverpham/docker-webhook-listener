@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "outDir": "dist",
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "types": ["node", "jest"],
+    "baseUrl": "src",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.spec.ts"],
+  "compileOnSave": false
+}
